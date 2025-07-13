@@ -24,3 +24,4 @@ else:
     print("please type SPIN, not something else")
 
 
+#if you want to buy this code, please pay me 500$, that would be awesomel. free to use, exept enterpises
