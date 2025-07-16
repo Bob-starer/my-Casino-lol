@@ -11,9 +11,12 @@ def spin():
     if item_received == "Win!":
         print("YOU WON!!!! YEAAAAHHAHAHAHHAhA")
     if item_received == "Nothing":
+        print("You lost!")
         print(random.choice(loss_messages))
     if item_received == "One more spin":
-        spin
+        print("You won another free spin!")
+        time.sleep(1)
+        spin()
 for a in range(3):
     print( )
 print("########## Welcome to Casino Monte Carlo! ##########")
@@ -23,5 +26,3 @@ if choice == "SPIN":
 else:
     print("please type SPIN, not something else")
 
-
-#if you want to buy this code, please pay me 500$, that would be awesomel. free to use, exept enterpises
